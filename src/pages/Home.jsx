@@ -1,14 +1,8 @@
 import React from 'react';
 
-import Header from '../partials/Header';
-import PageIllustration from '../partials/PageIllustration';
-import HeroHome from '../partials/HeroHome';
-import FeaturesBlocks from '../partials/FeaturesBlocks';
-import FeaturesZigZag from '../partials/FeaturesZigzag';
-import Testimonials from '../partials/Testimonials';
-import Newsletter from '../partials/Newsletter';
-import Banner from '../partials/Banner';
-import Footer from '../partials/Footer';
+import Header from '../home-partials/Header';
+import PageIllustration from '../home-partials/PageIllustration';
+import HeroHome from '../home-partials/HeroHome';
 
 function Home() {
   return (
@@ -25,16 +19,16 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <FeaturesBlocks />
+        {/* <FeaturesBlocks />
         <FeaturesZigZag />
         <Testimonials />
-        <Newsletter />
+        <Newsletter /> */}
       </main>
 
-      <Banner />
+      {/* <Banner /> */}
 
       {/*  Site footer */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
