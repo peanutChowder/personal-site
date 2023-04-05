@@ -11,6 +11,7 @@ import './css/style.css';
 import AOS from 'aos';
 
 import Home from './pages/Home';
+import Resume from './pages/Resume'
 import ResetPassword from './pages/ResetPassword';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/resume" element={<Resume />} />
         <Route path="/reset-password" element={<ResetPassword />} />
       </Routes>
     </>
