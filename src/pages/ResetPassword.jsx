@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Header from '../partials/Header';
-import PageIllustration from '../partials/PageIllustration';
-import Banner from '../partials/Banner';
+import Header from '../home-partials/Header';
+import PageIllustration from '../home-partials/PageIllustration';
+import Banner from '../home-partials/Banner';
 
 function ResetPassword() {
   return (
