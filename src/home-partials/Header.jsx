@@ -41,13 +41,10 @@ function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-center flex-wrap items-center">
               <li>
-                <Link to="/Resume" className="btn text-white bg-purple-600 hover:bg-purple-700 ml-3">Sign up</Link>
+                <Link to="/" className="font-medium text-orange-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">Home</Link>
               </li>
               <li>
-                <Link to="/Resume" className="font-medium text-blue-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">Resume</Link>
-              </li>
-              <li>
-                <Link to="/signin" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">About me</Link>
+                <Link to="/Resume" className="font-medium text-orange-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">Resume</Link>
               </li>
               <li>
                 <Link to="/signup" className="btn text-white bg-purple-600 hover:bg-purple-700 ml-3">Sign up</Link>

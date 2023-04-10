@@ -1,5 +1,5 @@
-import Header from "../home-partials/Header"
-import ResumeImage from "../images/Jacob-Feng-Winter-2023-Resume 2.7.5.png"
+import Header from "../../home-partials/Header"
+import FeaturesZigzag from "./FeaturesZigzag"
 
 function Resume() {
     return (
@@ -11,9 +11,7 @@ function Resume() {
                         {/* Hero content */}
                         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
                             <div>
-                                <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
-                                    <img className="mx-auto" src={ResumeImage} width="700"  alt="Hero" />
-                                </div>
+                                <FeaturesZigzag/>
                             </div>
                         </div>
                     </div>

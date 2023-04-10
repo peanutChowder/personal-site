@@ -11,7 +11,7 @@ import './css/style.css';
 import AOS from 'aos';
 
 import Home from './pages/Home';
-import Resume from './pages/Resume'
+import Resume from './pages/Resume/Resume'
 import ResetPassword from './pages/ResetPassword';
 
 function App() {
