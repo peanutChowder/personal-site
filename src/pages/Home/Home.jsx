@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Header from '../home-partials/Header';
-import PageIllustration from '../home-partials/PageIllustration';
-import HeroHome from '../home-partials/HeroHome';
+import Header from '../../partials/Header';
+import PageIllustration from '../../partials/PageIllustration';
+import PartialMain from './PartialMain';
 
 function Home() {
   return (
@@ -18,7 +18,7 @@ function Home() {
         </div>
 
         {/*  Page sections */}
-        <HeroHome />
+        <PartialMain />
         {/* <FeaturesBlocks />
         <FeaturesZigZag />
         <Testimonials />

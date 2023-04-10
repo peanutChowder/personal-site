@@ -1,4 +1,4 @@
-import Header from "../../home-partials/Header"
+import Header from "../../partials/Header"
 import FeaturesZigzag from "./FeaturesZigzag"
 
 function Resume() {
